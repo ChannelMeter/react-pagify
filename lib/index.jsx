@@ -76,7 +76,7 @@ var Paginator = React.createClass({
                     key={'pagination-' + i}
                     className={ellipsesClassName}
                 >
-                    &hellip;
+                    <a href="#" onClick={this.preventDefault}>&hellip;</a>
                 </li>
             );
         });
